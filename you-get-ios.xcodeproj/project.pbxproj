@@ -7,21 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		647BCD062993BC8887C9AC7F /* libPods-you-get-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BADAC31FE97B4AE50EA6C8B /* libPods-you-get-ios.a */; };
-		7580C6791FA18956004F740A /* CLMgtvModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7580C6781FA18956004F740A /* CLMgtvModel.m */; };
-		7595F8E21FAC6268007BCD8C /* CLIqiyiModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7595F8E11FAC6268007BCD8C /* CLIqiyiModel.m */; };
-		7595F8E51FAC627D007BCD8C /* CLIqiyiExtractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7595F8E41FAC627D007BCD8C /* CLIqiyiExtractor.m */; };
+		386AA4F830AE4D00A3F06F51 /* libPods-you-get-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 41F925A84A25853A59A2DF7A /* libPods-you-get-ios.a */; };
 		759DFD3F1F9DF09700906826 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 759DFD3E1F9DF09700906826 /* AppDelegate.m */; };
 		759DFD451F9DF09700906826 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 759DFD431F9DF09700906826 /* Main.storyboard */; };
 		759DFD471F9DF09700906826 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 759DFD461F9DF09700906826 /* Assets.xcassets */; };
 		759DFD4A1F9DF09700906826 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 759DFD481F9DF09700906826 /* LaunchScreen.storyboard */; };
 		759DFD4D1F9DF09700906826 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 759DFD4C1F9DF09700906826 /* main.m */; };
-		759DFD561F9DF10100906826 /* CLExtractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 759DFD551F9DF10100906826 /* CLExtractor.m */; };
-		759DFD591F9DF13400906826 /* CLTuDouExtractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 759DFD581F9DF13400906826 /* CLTuDouExtractor.m */; };
-		759DFD5C1F9DF29900906826 /* CLYouKuExtractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 759DFD5B1F9DF29900906826 /* CLYouKuExtractor.m */; };
-		759DFD621F9EE3EE00906826 /* CLCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 759DFD611F9EE3EE00906826 /* CLCommon.m */; };
-		759DFD651F9F116A00906826 /* NSString+CLURLEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = 759DFD641F9F116A00906826 /* NSString+CLURLEncode.m */; };
-		759DFD681F9F205000906826 /* CLYoukuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 759DFD671F9F205000906826 /* CLYoukuModel.m */; };
 		759DFD6C1F9F350800906826 /* CLRootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 759DFD6B1F9F350800906826 /* CLRootVC.m */; };
 		759DFD6F1F9F352400906826 /* CLWebVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 759DFD6E1F9F352400906826 /* CLWebVC.m */; };
 		759DFD721F9F353300906826 /* CLParseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 759DFD711F9F353300906826 /* CLParseVC.m */; };
@@ -29,25 +20,31 @@
 		759DFD781F9F38F000906826 /* CLRootItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 759DFD771F9F38F000906826 /* CLRootItemModel.m */; };
 		759DFD7B1FA0191800906826 /* CLParseItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 759DFD7A1FA0191800906826 /* CLParseItemCell.m */; };
 		759DFD7E1FA0611A00906826 /* UIViewController+BackButtonHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 759DFD7D1FA0611900906826 /* UIViewController+BackButtonHandler.m */; };
-		759DFD811FA0684C00906826 /* CLMgtvExtractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 759DFD801FA0684C00906826 /* CLMgtvExtractor.m */; };
-		759DFD841FA06A7400906826 /* CLExtractorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 759DFD831FA06A7400906826 /* CLExtractorManager.m */; };
-		75D2CFE11FA81B3F00EB4078 /* CLExtractorModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D2CFE01FA81B3F00EB4078 /* CLExtractorModel.m */; };
-		75D2CFE71FA867D600EB4078 /* CLXiguaExtractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D2CFE61FA867D600EB4078 /* CLXiguaExtractor.m */; };
-		75D2CFEA1FA867F300EB4078 /* CLXiguaModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D2CFE91FA867F300EB4078 /* CLXiguaModel.m */; };
-		75D2CFED1FA8A43000EB4078 /* NSData+CRC32.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D2CFEC1FA8A43000EB4078 /* NSData+CRC32.m */; };
 		75D2CFEF1FA8AB9800EB4078 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D2CFEE1FA8AB9800EB4078 /* libz.tbd */; };
+		75FDE2A02010297D00CDDD3D /* you_get_sdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 750543021FFB579600D3065E /* you_get_sdk.framework */; };
+		75FDE2A3201031F500CDDD3D /* you_get_sdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 750543021FFB579600D3065E /* you_get_sdk.framework */; };
+		75FDE2A4201031F500CDDD3D /* you_get_sdk.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 750543021FFB579600D3065E /* you_get_sdk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		75FDE2A5201031F500CDDD3D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				75FDE2A4201031F500CDDD3D /* you_get_sdk.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		24BDE77D73BCBF85BEA05215 /* Pods-you-get-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-you-get-ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-you-get-ios/Pods-you-get-ios.release.xcconfig"; sourceTree = "<group>"; };
+		41F925A84A25853A59A2DF7A /* libPods-you-get-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-you-get-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		50D3AD4E162B543592B75CF6 /* Pods-you-get-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-you-get-ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-you-get-ios/Pods-you-get-ios.debug.xcconfig"; sourceTree = "<group>"; };
-		6BADAC31FE97B4AE50EA6C8B /* libPods-you-get-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-you-get-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7580C6771FA18956004F740A /* CLMgtvModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLMgtvModel.h; sourceTree = "<group>"; };
-		7580C6781FA18956004F740A /* CLMgtvModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLMgtvModel.m; sourceTree = "<group>"; };
-		7595F8E01FAC6268007BCD8C /* CLIqiyiModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLIqiyiModel.h; sourceTree = "<group>"; };
-		7595F8E11FAC6268007BCD8C /* CLIqiyiModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLIqiyiModel.m; sourceTree = "<group>"; };
-		7595F8E31FAC627D007BCD8C /* CLIqiyiExtractor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLIqiyiExtractor.h; sourceTree = "<group>"; };
-		7595F8E41FAC627D007BCD8C /* CLIqiyiExtractor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLIqiyiExtractor.m; sourceTree = "<group>"; };
+		750543021FFB579600D3065E /* you_get_sdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = you_get_sdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		759DFD3A1F9DF09700906826 /* you-get-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "you-get-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		759DFD3D1F9DF09700906826 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		759DFD3E1F9DF09700906826 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -56,18 +53,6 @@
 		759DFD491F9DF09700906826 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		759DFD4B1F9DF09700906826 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		759DFD4C1F9DF09700906826 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		759DFD541F9DF10100906826 /* CLExtractor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLExtractor.h; sourceTree = "<group>"; };
-		759DFD551F9DF10100906826 /* CLExtractor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLExtractor.m; sourceTree = "<group>"; };
-		759DFD571F9DF13400906826 /* CLTuDouExtractor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLTuDouExtractor.h; sourceTree = "<group>"; };
-		759DFD581F9DF13400906826 /* CLTuDouExtractor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLTuDouExtractor.m; sourceTree = "<group>"; };
-		759DFD5A1F9DF29900906826 /* CLYouKuExtractor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLYouKuExtractor.h; sourceTree = "<group>"; };
-		759DFD5B1F9DF29900906826 /* CLYouKuExtractor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLYouKuExtractor.m; sourceTree = "<group>"; };
-		759DFD601F9EE3EE00906826 /* CLCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLCommon.h; sourceTree = "<group>"; };
-		759DFD611F9EE3EE00906826 /* CLCommon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLCommon.m; sourceTree = "<group>"; };
-		759DFD631F9F116A00906826 /* NSString+CLURLEncode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+CLURLEncode.h"; sourceTree = "<group>"; };
-		759DFD641F9F116A00906826 /* NSString+CLURLEncode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+CLURLEncode.m"; sourceTree = "<group>"; };
-		759DFD661F9F205000906826 /* CLYoukuModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLYoukuModel.h; sourceTree = "<group>"; };
-		759DFD671F9F205000906826 /* CLYoukuModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLYoukuModel.m; sourceTree = "<group>"; };
 		759DFD6A1F9F350800906826 /* CLRootVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLRootVC.h; sourceTree = "<group>"; };
 		759DFD6B1F9F350800906826 /* CLRootVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLRootVC.m; sourceTree = "<group>"; };
 		759DFD6D1F9F352400906826 /* CLWebVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLWebVC.h; sourceTree = "<group>"; };
@@ -82,20 +67,9 @@
 		759DFD7A1FA0191800906826 /* CLParseItemCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLParseItemCell.m; sourceTree = "<group>"; };
 		759DFD7C1FA0610B00906826 /* UIViewController+BackButtonHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BackButtonHandler.h"; sourceTree = "<group>"; };
 		759DFD7D1FA0611900906826 /* UIViewController+BackButtonHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BackButtonHandler.m"; sourceTree = "<group>"; };
-		759DFD7F1FA0684C00906826 /* CLMgtvExtractor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLMgtvExtractor.h; sourceTree = "<group>"; };
-		759DFD801FA0684C00906826 /* CLMgtvExtractor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLMgtvExtractor.m; sourceTree = "<group>"; };
-		759DFD821FA06A7400906826 /* CLExtractorManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLExtractorManager.h; sourceTree = "<group>"; };
-		759DFD831FA06A7400906826 /* CLExtractorManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLExtractorManager.m; sourceTree = "<group>"; };
-		759DFD851FA06E1100906826 /* CLConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLConstants.h; sourceTree = "<group>"; };
-		75D2CFDF1FA81B3F00EB4078 /* CLExtractorModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLExtractorModel.h; sourceTree = "<group>"; };
-		75D2CFE01FA81B3F00EB4078 /* CLExtractorModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLExtractorModel.m; sourceTree = "<group>"; };
-		75D2CFE51FA867D600EB4078 /* CLXiguaExtractor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLXiguaExtractor.h; sourceTree = "<group>"; };
-		75D2CFE61FA867D600EB4078 /* CLXiguaExtractor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLXiguaExtractor.m; sourceTree = "<group>"; };
-		75D2CFE81FA867F300EB4078 /* CLXiguaModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLXiguaModel.h; sourceTree = "<group>"; };
-		75D2CFE91FA867F300EB4078 /* CLXiguaModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLXiguaModel.m; sourceTree = "<group>"; };
-		75D2CFEB1FA8A42F00EB4078 /* NSData+CRC32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+CRC32.h"; sourceTree = "<group>"; };
-		75D2CFEC1FA8A43000EB4078 /* NSData+CRC32.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+CRC32.m"; sourceTree = "<group>"; };
 		75D2CFEE1FA8AB9800EB4078 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		75FDE2CE20103A6600CDDD3D /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75FDE2D020103A6A00CDDD3D /* JSONModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = JSONModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +77,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				647BCD062993BC8887C9AC7F /* libPods-you-get-ios.a in Frameworks */,
+				75FDE2A02010297D00CDDD3D /* you_get_sdk.framework in Frameworks */,
 				75D2CFEF1FA8AB9800EB4078 /* libz.tbd in Frameworks */,
+				75FDE2A3201031F500CDDD3D /* you_get_sdk.framework in Frameworks */,
+				386AA4F830AE4D00A3F06F51 /* libPods-you-get-ios.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,7 +109,6 @@
 			isa = PBXGroup;
 			children = (
 				759DFD691F9F34EC00906826 /* UI */,
-				759DFD531F9DF0D600906826 /* Extractor */,
 				759DFD3D1F9DF09700906826 /* AppDelegate.h */,
 				759DFD3E1F9DF09700906826 /* AppDelegate.m */,
 				759DFD431F9DF09700906826 /* Main.storyboard */,
@@ -143,44 +118,6 @@
 				759DFD4C1F9DF09700906826 /* main.m */,
 			);
 			path = "you-get-ios";
-			sourceTree = "<group>";
-		};
-		759DFD531F9DF0D600906826 /* Extractor */ = {
-			isa = PBXGroup;
-			children = (
-				759DFD851FA06E1100906826 /* CLConstants.h */,
-				759DFD821FA06A7400906826 /* CLExtractorManager.h */,
-				759DFD831FA06A7400906826 /* CLExtractorManager.m */,
-				75D2CFDF1FA81B3F00EB4078 /* CLExtractorModel.h */,
-				75D2CFE01FA81B3F00EB4078 /* CLExtractorModel.m */,
-				75D2CFEB1FA8A42F00EB4078 /* NSData+CRC32.h */,
-				75D2CFEC1FA8A43000EB4078 /* NSData+CRC32.m */,
-				759DFD631F9F116A00906826 /* NSString+CLURLEncode.h */,
-				759DFD641F9F116A00906826 /* NSString+CLURLEncode.m */,
-				759DFD601F9EE3EE00906826 /* CLCommon.h */,
-				759DFD611F9EE3EE00906826 /* CLCommon.m */,
-				759DFD541F9DF10100906826 /* CLExtractor.h */,
-				759DFD551F9DF10100906826 /* CLExtractor.m */,
-				759DFD571F9DF13400906826 /* CLTuDouExtractor.h */,
-				759DFD581F9DF13400906826 /* CLTuDouExtractor.m */,
-				759DFD5A1F9DF29900906826 /* CLYouKuExtractor.h */,
-				759DFD5B1F9DF29900906826 /* CLYouKuExtractor.m */,
-				759DFD661F9F205000906826 /* CLYoukuModel.h */,
-				759DFD671F9F205000906826 /* CLYoukuModel.m */,
-				759DFD7F1FA0684C00906826 /* CLMgtvExtractor.h */,
-				759DFD801FA0684C00906826 /* CLMgtvExtractor.m */,
-				7580C6771FA18956004F740A /* CLMgtvModel.h */,
-				7580C6781FA18956004F740A /* CLMgtvModel.m */,
-				75D2CFE51FA867D600EB4078 /* CLXiguaExtractor.h */,
-				75D2CFE61FA867D600EB4078 /* CLXiguaExtractor.m */,
-				75D2CFE81FA867F300EB4078 /* CLXiguaModel.h */,
-				75D2CFE91FA867F300EB4078 /* CLXiguaModel.m */,
-				7595F8E31FAC627D007BCD8C /* CLIqiyiExtractor.h */,
-				7595F8E41FAC627D007BCD8C /* CLIqiyiExtractor.m */,
-				7595F8E01FAC6268007BCD8C /* CLIqiyiModel.h */,
-				7595F8E11FAC6268007BCD8C /* CLIqiyiModel.m */,
-			);
-			path = Extractor;
 			sourceTree = "<group>";
 		};
 		759DFD691F9F34EC00906826 /* UI */ = {
@@ -207,8 +144,11 @@
 		93B36B6744AA8877AC307CDF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				75FDE2D020103A6A00CDDD3D /* JSONModel.framework */,
+				75FDE2CE20103A6600CDDD3D /* AFNetworking.framework */,
+				750543021FFB579600D3065E /* you_get_sdk.framework */,
 				75D2CFEE1FA8AB9800EB4078 /* libz.tbd */,
-				6BADAC31FE97B4AE50EA6C8B /* libPods-you-get-ios.a */,
+				41F925A84A25853A59A2DF7A /* libPods-you-get-ios.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -235,6 +175,7 @@
 				759DFD381F9DF09700906826 /* Resources */,
 				D3EC6A2FB8BFFBC940476329 /* [CP] Embed Pods Frameworks */,
 				BF907F23C4E17A37B291DB89 /* [CP] Copy Pods Resources */,
+				75FDE2A5201031F500CDDD3D /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -298,13 +239,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-you-get-ios-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		BF907F23C4E17A37B291DB89 /* [CP] Copy Pods Resources */ = {
@@ -328,9 +272,14 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-you-get-ios/Pods-you-get-ios-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/JSONModel/JSONModel.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSONModel.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -344,30 +293,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75D2CFED1FA8A43000EB4078 /* NSData+CRC32.m in Sources */,
-				759DFD681F9F205000906826 /* CLYoukuModel.m in Sources */,
-				759DFD841FA06A7400906826 /* CLExtractorManager.m in Sources */,
-				75D2CFE71FA867D600EB4078 /* CLXiguaExtractor.m in Sources */,
 				759DFD7E1FA0611A00906826 /* UIViewController+BackButtonHandler.m in Sources */,
-				759DFD591F9DF13400906826 /* CLTuDouExtractor.m in Sources */,
 				759DFD4D1F9DF09700906826 /* main.m in Sources */,
 				759DFD3F1F9DF09700906826 /* AppDelegate.m in Sources */,
-				7595F8E21FAC6268007BCD8C /* CLIqiyiModel.m in Sources */,
-				759DFD811FA0684C00906826 /* CLMgtvExtractor.m in Sources */,
 				759DFD721F9F353300906826 /* CLParseVC.m in Sources */,
 				759DFD6F1F9F352400906826 /* CLWebVC.m in Sources */,
-				75D2CFE11FA81B3F00EB4078 /* CLExtractorModel.m in Sources */,
-				7595F8E51FAC627D007BCD8C /* CLIqiyiExtractor.m in Sources */,
 				759DFD781F9F38F000906826 /* CLRootItemModel.m in Sources */,
-				759DFD651F9F116A00906826 /* NSString+CLURLEncode.m in Sources */,
-				759DFD621F9EE3EE00906826 /* CLCommon.m in Sources */,
-				7580C6791FA18956004F740A /* CLMgtvModel.m in Sources */,
 				759DFD751F9F37CC00906826 /* CLRootItemCell.m in Sources */,
 				759DFD6C1F9F350800906826 /* CLRootVC.m in Sources */,
-				759DFD561F9DF10100906826 /* CLExtractor.m in Sources */,
-				759DFD5C1F9DF29900906826 /* CLYouKuExtractor.m in Sources */,
 				759DFD7B1FA0191800906826 /* CLParseItemCell.m in Sources */,
-				75D2CFEA1FA867F300EB4078 /* CLXiguaModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +331,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -452,6 +387,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -502,8 +438,10 @@
 			baseConfigurationReference = 50D3AD4E162B543592B75CF6 /* Pods-you-get-ios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9MPG7BBVN2;
+				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "you-get-ios/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -518,8 +456,10 @@
 			baseConfigurationReference = 24BDE77D73BCBF85BEA05215 /* Pods-you-get-ios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9MPG7BBVN2;
+				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "you-get-ios/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

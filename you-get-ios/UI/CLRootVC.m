@@ -10,7 +10,8 @@
 #import "CLRootItemCell.h"
 #import "CLRootItemModel.h"
 #import "CLWebVC.h"
-#import "CLExtractorManager.h"
+//#import "CLExtractorManager.h"
+#import <you_get_sdk/CLExtractorManager.h>
 
 @interface CLRootVC ()
 
@@ -28,6 +29,8 @@
         [_datas addObject:[CLRootItemModel instanceWithCellId:SRC_MGTV cellName:@"芒果TV" url:@"https://www.mgtv.com"]];
         [_datas addObject:[CLRootItemModel instanceWithCellId:SRC_IQIYI cellName:@"爱奇艺" url:@"http://www.iqiyi.com"]];
         [_datas addObject:[CLRootItemModel instanceWithCellId:SRC_XIGUA cellName:@"西瓜视频" url:@"https://www.ixigua.com"]];
+        [_datas addObject:[CLRootItemModel instanceWithCellId:SRC_TX cellName:@"腾讯视频" url:@"https://v.qq.com"]];
+        [_datas addObject:[CLRootItemModel instanceWithCellId:SRC_XIGUA cellName:@"阳光宽频" url:@"https://www.365yg.com"]];
     }
     return _datas;
 }

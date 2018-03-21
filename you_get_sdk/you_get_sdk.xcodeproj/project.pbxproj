@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		750542B41FFB56B500D3065E /* you_get_sdk.h in Headers */ = {isa = PBXBuildFile; fileRef = 750542B21FFB56B500D3065E /* you_get_sdk.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		750542DE1FFB56CF00D3065E /* CLExtractorModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 750542BB1FFB56CE00D3065E /* CLExtractorModel.m */; };
+		750542DF1FFB56CF00D3065E /* CLIqiyiModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 750542BC1FFB56CE00D3065E /* CLIqiyiModel.m */; };
+		750542E01FFB56CF00D3065E /* CLCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 750542BD1FFB56CE00D3065E /* CLCommon.m */; };
+		750542E11FFB56CF00D3065E /* CLXiguaModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 750542BE1FFB56CE00D3065E /* CLXiguaModel.m */; };
+		750542E21FFB56CF00D3065E /* CLXiguaExtractor.h in Headers */ = {isa = PBXBuildFile; fileRef = 750542BF1FFB56CE00D3065E /* CLXiguaExtractor.h */; };
+		750542E31FFB56CF00D3065E /* CLMgtvModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 750542C01FFB56CE00D3065E /* CLMgtvModel.m */; };
+		750542E41FFB56CF00D3065E /* CLTxModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 750542C11FFB56CF00D3065E /* CLTxModel.m */; };
+		750542E51FFB56CF00D3065E /* CLTuDouExtractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 750542C21FFB56CF00D3065E /* CLTuDouExtractor.m */; };
+		750542E61FFB56CF00D3065E /* CLExtractor.h in Headers */ = {isa = PBXBuildFile; fileRef = 750542C31FFB56CF00D3065E /* CLExtractor.h */; };
+		750542E71FFB56CF00D3065E /* CLYoukuModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 750542C41FFB56CF00D3065E /* CLYoukuModel.h */; };
+		750542E81FFB56CF00D3065E /* NSString+CLURLEncode.h in Headers */ = {isa = PBXBuildFile; fileRef = 750542C51FFB56CF00D3065E /* NSString+CLURLEncode.h */; };
+		750542E91FFB56CF00D3065E /* CLYouKuExtractor.h in Headers */ = {isa = PBXBuildFile; fileRef = 750542C61FFB56CF00D3065E /* CLYouKuExtractor.h */; };
+		750542EA1FFB56CF00D3065E /* CLExtractorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 750542C71FFB56CF00D3065E /* CLExtractorManager.m */; };
+		750542EB1FFB56CF00D3065E /* CLMgtvExtractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 750542C81FFB56CF00D3065E /* CLMgtvExtractor.m */; };
+		750542EC1FFB56CF00D3065E /* CLIqiyiExtractor.h in Headers */ = {isa = PBXBuildFile; fileRef = 750542C91FFB56CF00D3065E /* CLIqiyiExtractor.h */; };
+		750542ED1FFB56CF00D3065E /* NSData+CRC32.h in Headers */ = {isa = PBXBuildFile; fileRef = 750542CA1FFB56CF00D3065E /* NSData+CRC32.h */; };
+		750542EE1FFB56CF00D3065E /* CLConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 750542CB1FFB56CF00D3065E /* CLConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		750542EF1FFB56CF00D3065E /* CLTxExtractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 750542CC1FFB56CF00D3065E /* CLTxExtractor.m */; };
+		750542F01FFB56CF00D3065E /* CLExtractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 750542CD1FFB56CF00D3065E /* CLExtractor.m */; };
+		750542F11FFB56CF00D3065E /* CLTxModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 750542CE1FFB56CF00D3065E /* CLTxModel.h */; };
+		750542F21FFB56CF00D3065E /* CLTuDouExtractor.h in Headers */ = {isa = PBXBuildFile; fileRef = 750542CF1FFB56CF00D3065E /* CLTuDouExtractor.h */; };
+		750542F31FFB56CF00D3065E /* CLMgtvModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 750542D01FFB56CF00D3065E /* CLMgtvModel.h */; };
+		750542F41FFB56CF00D3065E /* CLXiguaExtractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 750542D11FFB56CF00D3065E /* CLXiguaExtractor.m */; };
+		750542F51FFB56CF00D3065E /* CLCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 750542D21FFB56CF00D3065E /* CLCommon.h */; };
+		750542F61FFB56CF00D3065E /* CLXiguaModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 750542D31FFB56CF00D3065E /* CLXiguaModel.h */; };
+		750542F71FFB56CF00D3065E /* CLIqiyiModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 750542D41FFB56CF00D3065E /* CLIqiyiModel.h */; };
+		750542F81FFB56CF00D3065E /* CLExtractorModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 750542D51FFB56CF00D3065E /* CLExtractorModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		750542F91FFB56CF00D3065E /* NSString+CLURLEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = 750542D61FFB56CF00D3065E /* NSString+CLURLEncode.m */; };
+		750542FA1FFB56CF00D3065E /* CLYoukuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 750542D71FFB56CF00D3065E /* CLYoukuModel.m */; };
+		750542FB1FFB56CF00D3065E /* CLExtractorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 750542D81FFB56CF00D3065E /* CLExtractorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		750542FC1FFB56CF00D3065E /* CLYouKuExtractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 750542D91FFB56CF00D3065E /* CLYouKuExtractor.m */; };
+		750542FD1FFB56CF00D3065E /* CLTxExtractor.h in Headers */ = {isa = PBXBuildFile; fileRef = 750542DA1FFB56CF00D3065E /* CLTxExtractor.h */; };
+		750542FE1FFB56CF00D3065E /* NSData+CRC32.m in Sources */ = {isa = PBXBuildFile; fileRef = 750542DB1FFB56CF00D3065E /* NSData+CRC32.m */; };
+		750542FF1FFB56CF00D3065E /* CLIqiyiExtractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 750542DC1FFB56CF00D3065E /* CLIqiyiExtractor.m */; };
+		750543001FFB56CF00D3065E /* CLMgtvExtractor.h in Headers */ = {isa = PBXBuildFile; fileRef = 750542DD1FFB56CF00D3065E /* CLMgtvExtractor.h */; };
+		8E289620B6068B8846BF710F /* libPods-you_get_sdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE9CA7A055CB0C4B1651C027 /* libPods-you_get_sdk.a */; };
+		D1B7429537BEA456E4FDB5F7 /* cmd5xTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B747CE901BBA4153D920EB /* cmd5xTool.m */; };
+		D1B74B823CB04505BBFA76A4 /* cmd5xTool.h in Headers */ = {isa = PBXBuildFile; fileRef = D1B74F997F522D83603455CD /* cmd5xTool.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		750542AF1FFB56B500D3065E /* you_get_sdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = you_get_sdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		750542B21FFB56B500D3065E /* you_get_sdk.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = you_get_sdk.h; sourceTree = "<group>"; };
+		750542B31FFB56B500D3065E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		750542BB1FFB56CE00D3065E /* CLExtractorModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLExtractorModel.m; sourceTree = "<group>"; };
+		750542BC1FFB56CE00D3065E /* CLIqiyiModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLIqiyiModel.m; sourceTree = "<group>"; };
+		750542BD1FFB56CE00D3065E /* CLCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLCommon.m; sourceTree = "<group>"; };
+		750542BE1FFB56CE00D3065E /* CLXiguaModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLXiguaModel.m; sourceTree = "<group>"; };
+		750542BF1FFB56CE00D3065E /* CLXiguaExtractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLXiguaExtractor.h; sourceTree = "<group>"; };
+		750542C01FFB56CE00D3065E /* CLMgtvModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLMgtvModel.m; sourceTree = "<group>"; };
+		750542C11FFB56CF00D3065E /* CLTxModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLTxModel.m; sourceTree = "<group>"; };
+		750542C21FFB56CF00D3065E /* CLTuDouExtractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLTuDouExtractor.m; sourceTree = "<group>"; };
+		750542C31FFB56CF00D3065E /* CLExtractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLExtractor.h; sourceTree = "<group>"; };
+		750542C41FFB56CF00D3065E /* CLYoukuModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLYoukuModel.h; sourceTree = "<group>"; };
+		750542C51FFB56CF00D3065E /* NSString+CLURLEncode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CLURLEncode.h"; sourceTree = "<group>"; };
+		750542C61FFB56CF00D3065E /* CLYouKuExtractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLYouKuExtractor.h; sourceTree = "<group>"; };
+		750542C71FFB56CF00D3065E /* CLExtractorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLExtractorManager.m; sourceTree = "<group>"; };
+		750542C81FFB56CF00D3065E /* CLMgtvExtractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLMgtvExtractor.m; sourceTree = "<group>"; };
+		750542C91FFB56CF00D3065E /* CLIqiyiExtractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLIqiyiExtractor.h; sourceTree = "<group>"; };
+		750542CA1FFB56CF00D3065E /* NSData+CRC32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+CRC32.h"; sourceTree = "<group>"; };
+		750542CB1FFB56CF00D3065E /* CLConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLConstants.h; sourceTree = "<group>"; };
+		750542CC1FFB56CF00D3065E /* CLTxExtractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLTxExtractor.m; sourceTree = "<group>"; };
+		750542CD1FFB56CF00D3065E /* CLExtractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLExtractor.m; sourceTree = "<group>"; };
+		750542CE1FFB56CF00D3065E /* CLTxModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLTxModel.h; sourceTree = "<group>"; };
+		750542CF1FFB56CF00D3065E /* CLTuDouExtractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLTuDouExtractor.h; sourceTree = "<group>"; };
+		750542D01FFB56CF00D3065E /* CLMgtvModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLMgtvModel.h; sourceTree = "<group>"; };
+		750542D11FFB56CF00D3065E /* CLXiguaExtractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLXiguaExtractor.m; sourceTree = "<group>"; };
+		750542D21FFB56CF00D3065E /* CLCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLCommon.h; sourceTree = "<group>"; };
+		750542D31FFB56CF00D3065E /* CLXiguaModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLXiguaModel.h; sourceTree = "<group>"; };
+		750542D41FFB56CF00D3065E /* CLIqiyiModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLIqiyiModel.h; sourceTree = "<group>"; };
+		750542D51FFB56CF00D3065E /* CLExtractorModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLExtractorModel.h; sourceTree = "<group>"; };
+		750542D61FFB56CF00D3065E /* NSString+CLURLEncode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CLURLEncode.m"; sourceTree = "<group>"; };
+		750542D71FFB56CF00D3065E /* CLYoukuModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLYoukuModel.m; sourceTree = "<group>"; };
+		750542D81FFB56CF00D3065E /* CLExtractorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLExtractorManager.h; sourceTree = "<group>"; };
+		750542D91FFB56CF00D3065E /* CLYouKuExtractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLYouKuExtractor.m; sourceTree = "<group>"; };
+		750542DA1FFB56CF00D3065E /* CLTxExtractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLTxExtractor.h; sourceTree = "<group>"; };
+		750542DB1FFB56CF00D3065E /* NSData+CRC32.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+CRC32.m"; sourceTree = "<group>"; };
+		750542DC1FFB56CF00D3065E /* CLIqiyiExtractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLIqiyiExtractor.m; sourceTree = "<group>"; };
+		750542DD1FFB56CF00D3065E /* CLMgtvExtractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLMgtvExtractor.h; sourceTree = "<group>"; };
+		76978B9A64A66E49C6142796 /* Pods-you_get_sdk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-you_get_sdk.release.xcconfig"; path = "../Pods/Target Support Files/Pods-you_get_sdk/Pods-you_get_sdk.release.xcconfig"; sourceTree = "<group>"; };
+		8BF8AE74E24ED4FA14C21F76 /* Pods-you_get_sdk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-you_get_sdk.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-you_get_sdk/Pods-you_get_sdk.debug.xcconfig"; sourceTree = "<group>"; };
+		BE9CA7A055CB0C4B1651C027 /* libPods-you_get_sdk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-you_get_sdk.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1B747CE901BBA4153D920EB /* cmd5xTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cmd5xTool.m; sourceTree = "<group>"; };
+		D1B74F997F522D83603455CD /* cmd5xTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cmd5xTool.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		750542AB1FFB56B500D3065E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E289620B6068B8846BF710F /* libPods-you_get_sdk.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27B55D290794CC18C930598B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8BF8AE74E24ED4FA14C21F76 /* Pods-you_get_sdk.debug.xcconfig */,
+				76978B9A64A66E49C6142796 /* Pods-you_get_sdk.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		750542A51FFB56B500D3065E = {
+			isa = PBXGroup;
+			children = (
+				750542B11FFB56B500D3065E /* you_get_sdk */,
+				750542B01FFB56B500D3065E /* Products */,
+				27B55D290794CC18C930598B /* Pods */,
+				E9350DC09756D54D2D6D51ED /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		750542B01FFB56B500D3065E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				750542AF1FFB56B500D3065E /* you_get_sdk.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		750542B11FFB56B500D3065E /* you_get_sdk */ = {
+			isa = PBXGroup;
+			children = (
+				750542BA1FFB56CE00D3065E /* Extractor */,
+				750542B21FFB56B500D3065E /* you_get_sdk.h */,
+				750542B31FFB56B500D3065E /* Info.plist */,
+			);
+			path = you_get_sdk;
+			sourceTree = "<group>";
+		};
+		750542BA1FFB56CE00D3065E /* Extractor */ = {
+			isa = PBXGroup;
+			children = (
+				750542CB1FFB56CF00D3065E /* CLConstants.h */,
+				750542D81FFB56CF00D3065E /* CLExtractorManager.h */,
+				750542C71FFB56CF00D3065E /* CLExtractorManager.m */,
+				750542D51FFB56CF00D3065E /* CLExtractorModel.h */,
+				750542BB1FFB56CE00D3065E /* CLExtractorModel.m */,
+				7505430E1FFB5A8C00D3065E /* Base */,
+				7505430D1FFB5A6D00D3065E /* Category */,
+				7505430C1FFB5A4C00D3065E /* Common */,
+				7505430B1FFB597C00D3065E /* Mgtv */,
+				7505430A1FFB597400D3065E /* Tudou */,
+				750543091FFB595B00D3065E /* TX */,
+				750543081FFB594D00D3065E /* Iqiyi */,
+				750543071FFB594600D3065E /* Xigua */,
+				750543061FFB592E00D3065E /* Youku */,
+			);
+			path = Extractor;
+			sourceTree = "<group>";
+		};
+		750543061FFB592E00D3065E /* Youku */ = {
+			isa = PBXGroup;
+			children = (
+				750542C41FFB56CF00D3065E /* CLYoukuModel.h */,
+				750542D71FFB56CF00D3065E /* CLYoukuModel.m */,
+				750542C61FFB56CF00D3065E /* CLYouKuExtractor.h */,
+				750542D91FFB56CF00D3065E /* CLYouKuExtractor.m */,
+			);
+			path = Youku;
+			sourceTree = "<group>";
+		};
+		750543071FFB594600D3065E /* Xigua */ = {
+			isa = PBXGroup;
+			children = (
+				750542D31FFB56CF00D3065E /* CLXiguaModel.h */,
+				750542BE1FFB56CE00D3065E /* CLXiguaModel.m */,
+				750542BF1FFB56CE00D3065E /* CLXiguaExtractor.h */,
+				750542D11FFB56CF00D3065E /* CLXiguaExtractor.m */,
+			);
+			path = Xigua;
+			sourceTree = "<group>";
+		};
+		750543081FFB594D00D3065E /* Iqiyi */ = {
+			isa = PBXGroup;
+			children = (
+				750542D41FFB56CF00D3065E /* CLIqiyiModel.h */,
+				750542BC1FFB56CE00D3065E /* CLIqiyiModel.m */,
+				750542C91FFB56CF00D3065E /* CLIqiyiExtractor.h */,
+				750542DC1FFB56CF00D3065E /* CLIqiyiExtractor.m */,
+				D1B74F997F522D83603455CD /* cmd5xTool.h */,
+				D1B747CE901BBA4153D920EB /* cmd5xTool.m */,
+			);
+			path = Iqiyi;
+			sourceTree = "<group>";
+		};
+		750543091FFB595B00D3065E /* TX */ = {
+			isa = PBXGroup;
+			children = (
+				750542CE1FFB56CF00D3065E /* CLTxModel.h */,
+				750542C11FFB56CF00D3065E /* CLTxModel.m */,
+				750542DA1FFB56CF00D3065E /* CLTxExtractor.h */,
+				750542CC1FFB56CF00D3065E /* CLTxExtractor.m */,
+			);
+			path = TX;
+			sourceTree = "<group>";
+		};
+		7505430A1FFB597400D3065E /* Tudou */ = {
+			isa = PBXGroup;
+			children = (
+				750542CF1FFB56CF00D3065E /* CLTuDouExtractor.h */,
+				750542C21FFB56CF00D3065E /* CLTuDouExtractor.m */,
+			);
+			path = Tudou;
+			sourceTree = "<group>";
+		};
+		7505430B1FFB597C00D3065E /* Mgtv */ = {
+			isa = PBXGroup;
+			children = (
+				750542DD1FFB56CF00D3065E /* CLMgtvExtractor.h */,
+				750542C81FFB56CF00D3065E /* CLMgtvExtractor.m */,
+				750542D01FFB56CF00D3065E /* CLMgtvModel.h */,
+				750542C01FFB56CE00D3065E /* CLMgtvModel.m */,
+			);
+			path = Mgtv;
+			sourceTree = "<group>";
+		};
+		7505430C1FFB5A4C00D3065E /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				750542D21FFB56CF00D3065E /* CLCommon.h */,
+				750542BD1FFB56CE00D3065E /* CLCommon.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		7505430D1FFB5A6D00D3065E /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				750542C51FFB56CF00D3065E /* NSString+CLURLEncode.h */,
+				750542D61FFB56CF00D3065E /* NSString+CLURLEncode.m */,
+				750542CA1FFB56CF00D3065E /* NSData+CRC32.h */,
+				750542DB1FFB56CF00D3065E /* NSData+CRC32.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		7505430E1FFB5A8C00D3065E /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				750542C31FFB56CF00D3065E /* CLExtractor.h */,
+				750542CD1FFB56CF00D3065E /* CLExtractor.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		E9350DC09756D54D2D6D51ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE9CA7A055CB0C4B1651C027 /* libPods-you_get_sdk.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		750542AC1FFB56B500D3065E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				750542F71FFB56CF00D3065E /* CLIqiyiModel.h in Headers */,
+				750542EE1FFB56CF00D3065E /* CLConstants.h in Headers */,
+				750542FB1FFB56CF00D3065E /* CLExtractorManager.h in Headers */,
+				750542F81FFB56CF00D3065E /* CLExtractorModel.h in Headers */,
+				750542B41FFB56B500D3065E /* you_get_sdk.h in Headers */,
+				750542E71FFB56CF00D3065E /* CLYoukuModel.h in Headers */,
+				750542F61FFB56CF00D3065E /* CLXiguaModel.h in Headers */,
+				750542E81FFB56CF00D3065E /* NSString+CLURLEncode.h in Headers */,
+				750542F11FFB56CF00D3065E /* CLTxModel.h in Headers */,
+				750542E61FFB56CF00D3065E /* CLExtractor.h in Headers */,
+				750542EC1FFB56CF00D3065E /* CLIqiyiExtractor.h in Headers */,
+				750542F21FFB56CF00D3065E /* CLTuDouExtractor.h in Headers */,
+				750542E91FFB56CF00D3065E /* CLYouKuExtractor.h in Headers */,
+				750542F51FFB56CF00D3065E /* CLCommon.h in Headers */,
+				750543001FFB56CF00D3065E /* CLMgtvExtractor.h in Headers */,
+				750542FD1FFB56CF00D3065E /* CLTxExtractor.h in Headers */,
+				750542F31FFB56CF00D3065E /* CLMgtvModel.h in Headers */,
+				750542E21FFB56CF00D3065E /* CLXiguaExtractor.h in Headers */,
+				750542ED1FFB56CF00D3065E /* NSData+CRC32.h in Headers */,
+				D1B74B823CB04505BBFA76A4 /* cmd5xTool.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		750542AE1FFB56B500D3065E /* you_get_sdk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 750542B71FFB56B500D3065E /* Build configuration list for PBXNativeTarget "you_get_sdk" */;
+			buildPhases = (
+				ADC52C7FF186E5ACAC7B3458 /* [CP] Check Pods Manifest.lock */,
+				750542AA1FFB56B500D3065E /* Sources */,
+				750542AB1FFB56B500D3065E /* Frameworks */,
+				750542AC1FFB56B500D3065E /* Headers */,
+				750542AD1FFB56B500D3065E /* Resources */,
+				C85C4A4057BFAD8906037E27 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = you_get_sdk;
+			productName = you_get_sdk;
+			productReference = 750542AF1FFB56B500D3065E /* you_get_sdk.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		750542A61FFB56B500D3065E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Charlie.Z;
+				TargetAttributes = {
+					750542AE1FFB56B500D3065E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 750542A91FFB56B500D3065E /* Build configuration list for PBXProject "you_get_sdk" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 750542A51FFB56B500D3065E;
+			productRefGroup = 750542B01FFB56B500D3065E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				750542AE1FFB56B500D3065E /* you_get_sdk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		750542AD1FFB56B500D3065E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		ADC52C7FF186E5ACAC7B3458 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-you_get_sdk-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C85C4A4057BFAD8906037E27 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-you_get_sdk/Pods-you_get_sdk-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		750542AA1FFB56B500D3065E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				750542E01FFB56CF00D3065E /* CLCommon.m in Sources */,
+				750542DF1FFB56CF00D3065E /* CLIqiyiModel.m in Sources */,
+				750542E51FFB56CF00D3065E /* CLTuDouExtractor.m in Sources */,
+				750542E41FFB56CF00D3065E /* CLTxModel.m in Sources */,
+				750542EB1FFB56CF00D3065E /* CLMgtvExtractor.m in Sources */,
+				750542EF1FFB56CF00D3065E /* CLTxExtractor.m in Sources */,
+				750542FF1FFB56CF00D3065E /* CLIqiyiExtractor.m in Sources */,
+				750542FA1FFB56CF00D3065E /* CLYoukuModel.m in Sources */,
+				750542E31FFB56CF00D3065E /* CLMgtvModel.m in Sources */,
+				750542EA1FFB56CF00D3065E /* CLExtractorManager.m in Sources */,
+				750542F91FFB56CF00D3065E /* NSString+CLURLEncode.m in Sources */,
+				750542DE1FFB56CF00D3065E /* CLExtractorModel.m in Sources */,
+				750542FC1FFB56CF00D3065E /* CLYouKuExtractor.m in Sources */,
+				750542FE1FFB56CF00D3065E /* NSData+CRC32.m in Sources */,
+				750542E11FFB56CF00D3065E /* CLXiguaModel.m in Sources */,
+				750542F41FFB56CF00D3065E /* CLXiguaExtractor.m in Sources */,
+				750542F01FFB56CF00D3065E /* CLExtractor.m in Sources */,
+				D1B7429537BEA456E4FDB5F7 /* cmd5xTool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		750542B51FFB56B500D3065E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MACH_O_TYPE = mh_dylib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		750542B61FFB56B500D3065E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MACH_O_TYPE = mh_dylib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		750542B81FFB56B500D3065E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BF8AE74E24ED4FA14C21F76 /* Pods-you_get_sdk.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 9MPG7BBVN2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = you_get_sdk/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = mh_dylib;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zcl.you-get-sdk";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		750542B91FFB56B500D3065E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76978B9A64A66E49C6142796 /* Pods-you_get_sdk.release.xcconfig */;
+			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 9MPG7BBVN2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = you_get_sdk/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = mh_dylib;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zcl.you-get-sdk";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		750542A91FFB56B500D3065E /* Build configuration list for PBXProject "you_get_sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				750542B51FFB56B500D3065E /* Debug */,
+				750542B61FFB56B500D3065E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		750542B71FFB56B500D3065E /* Build configuration list for PBXNativeTarget "you_get_sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				750542B81FFB56B500D3065E /* Debug */,
+				750542B91FFB56B500D3065E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 750542A61FFB56B500D3065E /* Project object */;
+}

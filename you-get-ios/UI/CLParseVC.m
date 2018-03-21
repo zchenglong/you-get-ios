@@ -8,8 +8,7 @@
 
 #import "CLParseVC.h"
 #import "CLParseItemCell.h"
-#import "CLExtractorManager.h"
-#import "CLExtractorModel.h"
+#import <you_get_sdk/you_get_sdk.h>
 #import <AVFoundation/AVFoundation.h>
 #import <AVKit/AVKit.h>
 
@@ -51,6 +50,12 @@
     
     [CLExtractorManager sharedInstance].delegate = self;
     [[CLExtractorManager sharedInstance] downloadByUrl:self.url src:self.src];
+//    [[CLExtractorManager sharedInstance] downloadByVid:@"6518741629925327368" src:self.src];
+    
+    //测试爱奇艺正片
+//    [[CLExtractorManager sharedInstance] downloadByTvid:@"898016000" vid:@"9d3c0a39d140eb7479ea774198539c60" src:self.src];
+//    [[CLExtractorManager sharedInstance] downloadByTvid:@"561328100" vid:@"fdcd77b5e07c26c6e7ae69ca5b826657" src:self.src];
+    
 }
 
 - (void)cl_extractorResultWithObject:(id)obj src:(NSString *)src {
@@ -58,6 +63,8 @@
         return;
     }
     self.exModel = obj;
+    
+    self.navigationItem.title = self.exModel.title;
     
     [self.datas removeAllObjects];
     [self.datas addObjectsFromArray:self.exModel.streams];
